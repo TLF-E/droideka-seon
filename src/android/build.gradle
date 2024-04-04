@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.example.seon_plugin'
+
     compileSdkVersion 31
 
     compileOptions {
